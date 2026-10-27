@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Review Blog - Experiment 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🎬 Movie Review Blog</h1>
+        <p>Explore movies, ratings and reviews</p>
+    </header>
+
+    <main>
+
+        <!-- Question 1: Digital Clock -->
+        <section class="section">
+            <h2>1. Digital Clock</h2>
+            <p>Current Time: <span id="clock"></span></p>
+        </section>
+
+        <!-- Question 2: Background Colour Change -->
+        <section class="section">
+            <h2>2. Dynamic Background</h2>
+            <p>The background colour changes automatically.</p>
+            <button id="backgroundBtn">Change Background Now</button>
+        </section>
+
+        <!-- Question 3: Mouse Events -->
+        <section class="section">
+            <h2>3. Interactive Movie Message</h2>
+            <p id="movieMessage">
+                Move your mouse over this message to enlarge it!
+            </p>
+        </section>
+
+        <!-- Question 4: Move and Stop Animation -->
+        <section class="section">
+            <h2>4. Movie Car Animation</h2>
+            <p>Click Move to start the animation and Stop to stop it.</p>
+
+            <div id="road">
+                <div id="car">🚗</div>
+            </div>
+
+            <button id="moveBtn">Move</button>
+            <button id="stopBtn">Stop</button>
+        </section>
+
+        <!-- Question 5: Array of Objects -->
+        <section class="section">
+            <h2>5. Movie Reviewers Details</h2>
+            <p>Reviewer information and birth-year categories:</p>
+            <div id="reviewerDetails"></div>
+        </section>
+
+        <!-- Movie Review Blog Cards -->
+        <section class="section">
+            <h2>Popular Movie Reviews</h2>
+
+            <div class="movies">
+                <article class="movie-card">
+                    <h3>Interstellar</h3>
+                    <p>Rating: 9/10</p>
+                    <p>A fascinating science-fiction adventure.</p>
+                </article>
+
+                <article class="movie-card">
+                    <h3>Avengers: Endgame</h3>
+                    <p>Rating: 9/10</p>
+                    <p>An exciting superhero movie.</p>
+                </article>
+
+                <article class="movie-card">
+                    <h3>Spider-Man</h3>
+                    <p>Rating: 8/10</p>
+                    <p>An entertaining superhero adventure.</p>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Movie Review Blog | Web Technology Experiment 6</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #222;
+    transition: background-color 1s;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Main Sections */
+main {
+    padding: 20px;
+}
+
+.section {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px #ccc;
+}
+
+.section h2 {
+    color: #d62828;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* Digital Clock */
+#clock {
+    color: #d62828;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Buttons */
+button {
+    background-color: #d62828;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a4161a;
+}
+
+/* Mouse Event Message */
+#movieMessage {
+    font-size: 16px;
+    transition: font-size 0.3s;
+    cursor: pointer;
+}
+
+/* Car Animation Road */
+#road {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #ddd;
+    border-bottom: 5px dashed #555;
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+/* Car */
+#car {
+    position: absolute;
+    left: 0;
+    top: 15px;
+    font-size: 35px;
+}
+
+/* Reviewer Details */
+#reviewerDetails p {
+    line-height: 1.8;
+}
+
+/* Movie Cards */
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.movie-card {
+    background-color: #fff5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    flex: 1 1 200px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 12px #ccc;
+}
+
+.movie-card h3 {
+    color: #d62828;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Responsive Layout */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    .section {
+        padding: 15px;
+    }
+
+    .movies {
+        flex-direction: column;
+    }
+}
